@@ -6,28 +6,30 @@
         <meta http-equiv="X-UA-Compatible" content="ie-edge">
         <title>Trade Calculator</title>
         <link rel="stylesheet" href="trade-calculator.css">
-
+        <script src="trade-calculator.js"></script>
     </head>
     <body>
-        <script src="trade-calculator.js"></script>
-
-        <div class="topInput">
-            <input type="number" placeholder="Base">
-            <input type="number" placeholder="Rate">
+        <div class="h1Title">
+            <h1>Trade Calculator</h1>
         </div>
 
-        <br>
-
-        <div class="bottomInput">
-            <input type="number" placeholder="Contribution">
-            <input type="number" placeholder="Number of Trades">
+        <div class="allInputnButton">
+            <div class="divTopInput">
+                <input type="number" class="topInput" id="Base" placeholder="Base">
+                <input type="number" class="topInput" id="Rate" placeholder="Rate">
+            </div>
+            <br>
+            <div class="divBottomInput">
+                <input type="number" class="bottomInput" id="Contribution" placeholder="Contribution">
+                <input type="number" class="bottomInput" id="NumTrades" placeholder="Number of Trades">
+            </div>
+            <br>
+            <div class="divBut">
+                <button class="but">Calculate</button>
+            </div>
         </div>
-
-        <br>
-        <div class="but">
-            <button>Calculate</button>
-        </div>
-
     </body>
-    <footer></footer>
+    <div class="foot">
+        <footer>Kevin Moua</footer>
+    </div>
 </html>

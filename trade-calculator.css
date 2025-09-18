@@ -1,12 +1,48 @@
 
+body{
+    background-color: #3a9188;
+}
+
+.h1Title{
+    text-align: center;
+    color: #044a42;
+}
+
+.allInputnButton{
+    margin-top: 20%;
+    margin-bottom: 55%;
+}
+
+.divTopInput{
+    text-align: center;
+}
+
 .topInput{
+    font-size: 30px;
+    text-align: center;
+    color: #044a42;
+}
+
+.divBottomInput{
     text-align: center;
 }
 
 .bottomInput{
+    font-size: 30px;
+    text-align: center;
+    color: #044a42;
+}
+
+.divBut{
     text-align: center;
 }
 
 .but{
+    color: #044a42;
+    font-size: 30px;
+}
+
+.foot{
     text-align: center;
+    color: #044a42;
 }
