@@ -8,9 +8,20 @@ body{
     color: #044a42;
 }
 
+input{
+    color: #044a42;
+    border: .25rem solid #b8e1dd;
+    background-color: #3a9188;
+    border-radius: .7rem;
+}
+
+input::placeholder{
+    color: #044a42;
+}
+
 .allInputnButton{
-    margin-top: 20%;
-    margin-bottom: 55%;
+    margin-top: 10rem;
+    margin-bottom: 30rem;
 }
 
 .divTopInput{
@@ -20,7 +31,23 @@ body{
 .topInput{
     font-size: 30px;
     text-align: center;
-    color: #044a42;
+    margin-bottom: 1rem;
+}
+
+.Base{
+    margin-right: 2rem;
+}
+
+.Rate{
+    margin-left: 2rem;
+}
+
+.Contribution{
+    margin-right: 2rem;
+}
+
+.NumTrades{
+    margin-left: 2rem;
 }
 
 .divBottomInput{
@@ -33,16 +60,26 @@ body{
     color: #044a42;
 }
 
-.divBut{
+.divButCalc{
     text-align: center;
+    margin-top: 1.5rem;
 }
 
-.but{
+.butCalc{
+    background-color: #3a9188;
     color: #044a42;
     font-size: 30px;
+    border: .35rem solid #b8e1dd;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.divFoot{
+    text-align: center;
+    color: #044a42;
+    font-size: 25px;
 }
 
 .foot{
-    text-align: center;
-    color: #044a42;
+
 }
